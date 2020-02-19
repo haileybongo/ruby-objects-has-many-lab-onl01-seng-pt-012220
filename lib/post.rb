@@ -20,9 +20,9 @@ class Post
     @title 
   end
   
-  def artist_name
-    if self.artist
-      self.artist.name
+  def author_name
+    if self.author
+      self.author.name
     else
       nil 
     end

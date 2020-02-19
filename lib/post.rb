@@ -16,7 +16,7 @@ class Post
     @@all
   end
   
-  def name 
+  def title 
     @title 
   end
   
